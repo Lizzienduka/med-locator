@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'lato';
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+header{
+    background: #22A4A2;
+    height: 80px;
+    width: 100%;
+    padding: 30px 0;
+    position: inherit;
+
+    
+}
+
+#icon{
+    position: relative;
+    top: 5px;
+}
+
+
+
+header a{
+    padding-top: 10px;
+    padding-right: 3em;
+    margin-left: .2em;
+    position: relative;
+
+}
+
+
+#header-main{
+    padding-bottom: 2rem;
+    margin-left: 5em;
+    
+}
+
+/* END OF HEADER */
+
+/* MED LOGO START */
+
+.cart-text {
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    top: 60px;
+}
+
+
+
+.item-info {
+    opacity: 0.9;
+    color: #444;
+    font-size: 0.8rem;
+}
+
+.test-1{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.padding-equal{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.cancel-container{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.price{
+    margin-left: 5rem;
+
+}
+
+.logo-img{
+    height: 100px;
+    width: 130px;
+}
+
+/* buttons */
+
+button{ 
+    padding: 10px 90px;
+    margin: 0 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #22A4A2;
+    
+    
+}
+.buttons{
+    float: right;
+    margin-right: 5em;
+}
+
+.light{
+    background: #fff;
+    color: #22A4A2;
+   
+    
+}
+
+.light:hover{
+    background: #22A4A2;
+    color: #fff;
+}
+
+.dark{
+    background: #22A4A2;
+    color: #fff;
+}
+
+/* PLACE ORDER CSS */
+
+.form-wrapper{
+    /* background: rgb(223, 220, 220); */
+    width: 48%;
+    height: auto; 
+
+
+}
+
+.form-1 {
+    margin: 0 3em;
+    padding: 20px 100px 0 0;
+    
+}
+
+form{
+    line-height: 1.7em;
+    padding: 1em;
+}
+
+input{
+    padding: 0em 20em;
+    border-style: none;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    
+}
+
+/* FORM 2 PAYMENT DETAILS */
+
+.form-2 {
+    margin: 0 3em;
+    padding: 20px 100px 0 0;
+    
+}
+
+h1{
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+
+#ship-padding{
+    margin-bottom: 1em;
+
+}
+#radio{
+    margin: 2em;
+}

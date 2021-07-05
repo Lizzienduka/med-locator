@@ -1,0 +1,115 @@
+@media only screen and (max-width: 350px) {
+   body{
+       background-color: rgb(163, 151, 151);
+   }
+
+    header{
+        background: #22A4A2;
+        width: 100%;
+        height: 15px;
+        padding: 20px 0;
+        position: inherit;
+
+        
+    }
+
+    a{
+        font-size: .5em;
+    }
+
+
+
+    header a{
+        padding-top: 10px;
+        padding-right: 1em;
+        margin-top: 1em;
+        
+    }
+
+
+    #header-main{
+        margin-left: .6em;
+        
+    }
+
+    #icon{
+        position: relative;
+        top: 2px;
+        width: 10px;
+    }
+     
+    /* end of header */
+       .item-info {
+        opacity: 0.9;
+        color: #444;
+        font-size: 0.5rem;
+    }
+
+    .test-1{
+        width: 60%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .padding-equal{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .cancel-container{
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .price{
+        margin-left: 1.5rem;
+
+    }
+
+    .logo-img{
+        height: 80px;
+        width: 100px;
+    }
+
+    /* buttons */
+
+    button{ 
+        text-align: center;
+        padding: 10px 50px;
+        margin: 20px 20px 10px 20px;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: #22A4A2;
+        
+        
+    }
+    .buttons{
+        text-align: center;
+        
+    }
+    
+    .light{
+        background: #fff;
+        color: #22A4A2;
+       
+        
+    }
+    
+    .light:hover{
+        background: #22A4A2;
+        color: #fff;
+    }
+    
+    .dark{
+        background: #22A4A2;
+        color: #fff;
+    }
+    
+}
+    
